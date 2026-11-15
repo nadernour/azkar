@@ -394,13 +394,13 @@
         "volume": 2,
         "page": 427
       },
-      "text": "حدثنا سعيد بن أبي مريم قال : حدثنا أبو غسان قال : حدثني أبو حازم **عن سهل قال ، كانت فينا امرأة تجعل على أربِعاءَ في مزرعة لها سِلقا ، فكانت إذا كان يوم جمعة تنزع أصول السُّلق فتجعله في قدر ، ثم تجعل عليه قبضة من شعير تطحنها ، فتكون أصول السلق عَرْقَه وكنا ننصرف من صلاة الجمعة فنسلم عليها فتقرب ذلك الطعام إلينا فنلعقه ، وكنا نتمنى يوم الجمعة لطعامها ذلك .** حدثنا عبد الله بن مسلمة قال : حدثنا ابن أبي حازم عن أبيه **عن سهل بهذا وقال : ما كنا نقيل ولا نتغدى إلا بعد الجمعة .**",
+      "text": "حدثنا سعيد بن أبي مريم قال : حدثنا أبو غسان قال : حدثني أبو حازم **عن سهل قال ، كانت فينا امرأة تجعل على أربِعاءَ في مزرعة لها سِلقا ، فكانت إذا كان يوم جمعة تنزع أصول السِّلق فتجعله في قدر ، ثم تجعل عليه قبضة من شعير تطحنها ، فتكون أصول السلق عَرْقَه وكنا ننصرف من صلاة الجمعة فنسلم عليها فتقرب ذلك الطعام إلينا فنلعقه ، وكنا نتمنى يوم الجمعة لطعامها ذلك .** حدثنا عبد الله بن مسلمة قال : حدثنا ابن أبي حازم عن أبيه **عن سهل بهذا وقال : ما كنا نقيل ولا نتغدى إلا بعد الجمعة .**",
       "grading": "صحيح",
       "takhrij": null,
       "footnotes": [],
       "corrections": [],
       "transcriber_notes": [
-        "A second chain («حدثنا عبد الله بن مسلمة …») is printed without an entry number of its own; kept in text. No source footnote is printed for this entry. «قال ،» with a comma as printed. Marks zoomed: «أربِعاءَ», «سِلقا», «السُّلق» (shadda and damma over the sin), «عَرْقَه»."
+        "A second chain («حدثنا عبد الله بن مسلمة …») is printed without an entry number of its own; kept in text. No source footnote is printed for this entry. «قال ،» with a comma as printed. Marks zoomed: «أربِعاءَ», «سِلقا», «السِّلق», «عَرْقَه». Review of 2026-11-15: the mark on the sin of «السِّلق» is a shadda with a short stroke under it, between the shadda and the letter: this type's shadda with kasra. It had been read as a damma."
       ]
     },
     {
@@ -490,6 +490,17 @@
       "takhrij": "ورواه مسلم ج١٢ ص١٥٧ ، والترمذي مختصرا جدا ج٧ ص٤٨٢ وقال : حسن صحيح . وابن السني في عمل اليوم والليلة رقم ٢٢٩ مختصرا ، وعزاه المزي في الأطراف للنسائيّ .",
       "footnotes": [],
       "corrections": [
+        {
+          "id": 18,
+          "field": "text",
+          "printed": "أنه لا أحسن",
+          "corrected": "إنه لا أحسن",
+          "confidence": 0.92,
+          "status": "approved",
+          "decided_by": "auto",
+          "source": "transcriber",
+          "reason": "Transcriber's judgment (review of 2026-11-15 by Claude Fable): hamza printed on the wrong side of the alif (the OCR check ignores hamza forms, so it was never compared): «أيها المرء إنه لا أحسن مما تقول» opens the speech, so «إنّ»."
+        },
         {
           "id": 9,
           "field": "text",

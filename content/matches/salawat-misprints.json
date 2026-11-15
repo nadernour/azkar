@@ -750,46 +750,8 @@
     "entry": 188,
     "kind": "missing",
     "tokens": [
-      124,
-      124
-    ],
-    "printed_words": [],
-    "alternative_words": [
-      "لك"
-    ],
-    "alternative_tokens": [
-      "لك"
-    ],
-    "left": [
-      "زدت",
-      "فهو",
-      "خير"
-    ],
-    "right": [
-      "قلت",
-      "اجعل",
-      "لك"
-    ],
-    "cited_wins": false,
-    "nonword": false,
-    "evidence_counts": {
-      "printed_in_collections": 0,
-      "context_words": 3,
-      "alternative_in_collections": 1,
-      "printed_on_dorar": 2,
-      "alternative_on_dorar": 6,
-      "ocr_confirms_printed": false
-    },
-    "decision": "variant",
-    "confidence": 0.05,
-    "evidence": "The printed wording is attested elsewhere (0 in the collections, 2 on dorar.net), so it is a genuine variant."
-  },
-  {
-    "entry": 188,
-    "kind": "missing",
-    "tokens": [
-      142,
-      142
+      143,
+      143
     ],
     "printed_words": [],
     "alternative_words": [

@@ -2513,45 +2513,5 @@
     "decision": "variant",
     "confidence": 0.05,
     "evidence": "The printed wording is attested elsewhere (141 in the collections, 0 on dorar.net), so it is a genuine variant."
-  },
-  {
-    "entry": 351,
-    "kind": "substitution",
-    "tokens": [
-      59,
-      60
-    ],
-    "printed_words": [
-      "ابوب"
-    ],
-    "alternative_words": [
-      "ابواب"
-    ],
-    "alternative_tokens": [
-      "أبواب"
-    ],
-    "left": [
-      "القيامه",
-      "وتفتح",
-      "لها"
-    ],
-    "right": [
-      "السما",
-      "ويقول",
-      "بعزتي"
-    ],
-    "cited_wins": false,
-    "nonword": true,
-    "evidence_counts": {
-      "printed_in_collections": 0,
-      "context_words": 3,
-      "alternative_in_collections": 1,
-      "printed_on_dorar": 0,
-      "alternative_on_dorar": 10,
-      "ocr_confirms_printed": true
-    },
-    "decision": "kept",
-    "confidence": 0.15,
-    "evidence": "Kept: a spelling-only difference (a long-vowel alif or a doubled waw, or words written joined), a usual difference between editions."
   }
 ]

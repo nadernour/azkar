@@ -58,6 +58,17 @@
           "status": "rejected",
           "decided_by": "owner",
           "reason": "Owner's review 2026-10-23 (decided by Claude at the owner's request): «عبد الرحمن بن معاوية العتبي المصري» is al-Tabarani's Egyptian shaykh, known by the nisba al-Utbi; the tool's «الضبي» is attested nowhere. Al-Tabarani isn't in the databases, so the tool couldn't see the name. Earlier evidence: Substitution: the printed wording occurs nowhere (in context); the printed word exists nowhere in the collections; the alternative is attested 0 time(s) in the collections; it is part of a name, and the printed spelling is used in no narration; the OCR confirms the page prints it; asked rather than corrected automatically, because the alternative is attested nowhere in this context and the entry's source isn't in the databases, so its wording can't be compared."
+        },
+        {
+          "id": 7,
+          "field": "text",
+          "printed": "أبي عباس بن سهل",
+          "corrected": "أبي بن عباس بن سهل",
+          "confidence": 0.9,
+          "status": "approved",
+          "decided_by": "owner",
+          "source": "transcriber",
+          "reason": "Owner's review 2026-11-15 (decided by Claude Fable at the owner's request): the narrator is Ubayy ibn Abbas ibn Sahl ibn Sa'd, who narrates from his father from his grandfather, as the chain goes on («عن أبيه عن جده»); the «بن» after «أبي» was dropped, which turns the name into a kunya no narration uses. The source (al-Tabarani) is not in the databases, so the tool could not compare the chain."
         }
       ],
       "transcriber_notes": [
@@ -192,7 +203,19 @@
       "footnotes": [
         "(*) [على «ورفع بها صوته»] في رواية عزرة عن سعيد بن عبد الرحمن بن أبزى « يطوّلها ثلاثا » . وفي رواية أخرى يمد بالآخرة صوته ص٤٠٧ ج٣ ."
       ],
-      "corrections": [],
+      "corrections": [
+        {
+          "id": 8,
+          "field": "text",
+          "printed": "الأيامي",
+          "corrected": "الإيامي",
+          "confidence": 0.92,
+          "status": "approved",
+          "decided_by": "auto",
+          "source": "transcriber",
+          "reason": "Transcriber's judgment (review of 2026-11-15 by Claude Fable): hamza printed on the wrong side of the alif (the OCR check ignores hamza forms, so it was never compared): the narrator is Zubayd al-Iyami («الإيامي», also written «اليامي»); the hamza belongs under the alif."
+        }
+      ],
       "transcriber_notes": [
         "The heading is printed «ما يقرأ في الوتر …»; the index has «ما يقرئ …».",
         "The chain prints «عن ذر عن ابن عبد الرحمن بن أبزى» (zoomed). The surah names are printed in bold without Quran brackets, and «ياأيها» is printed with both alefs."

@@ -361,13 +361,13 @@
         "volume": 11,
         "page": 150
       },
-      "text": "حدثني محمد بن المثنى حدثنا يحيى عن إسماعيل قال : حدثني قيس قال : **أتيت خبّابا وقد اكتوى سبعا في بطنه فسمعته يقول : لولا أن النبي ﷺ** نهانا **أن ندعو بالموت لدعوت به .**",
+      "text": "حدثني محمد بن المثنى حدثنا يحيى عن إسماعيل قال : حدثني قيس قال : **أتيت خبّابا وقد اكتوى سبعا في بطنه فسمعته يقول : لولا أن النبي ﷺ نهانا أن ندعو بالموت لدعوت به .**",
       "grading": "صحيح",
       "takhrij": "ورواه مسلم ج١٧ ص٨ ، والنسائيّ ج٤ ص٤ ، والترمذي ج٤ ص٤٥ وقال : حسن صحيح . وأحمد ٥ / ١٠٩ ، ١١٠ ، ١١٢ .",
       "footnotes": [],
       "corrections": [],
       "transcriber_notes": [
-        "«نهانا» after ﷺ is printed in regular type inside the bold run; marked as printed."
+        "Review of 2026-11-15: «نهانا» after ﷺ is bold like the rest of the hadith (zoomed on p. 198); the bold run is continuous."
       ]
     },
     {
@@ -810,7 +810,7 @@
     {
       "number": 324,
       "book_page": 207,
-      "heading": "الدعاء بإصلاح الدين والدنيا والاخرة",
+      "heading": "الدعاء بإصلاح الدين والدنيا والآخرة",
       "label": null,
       "citation": "قال الإمام مسلم ج١٧ ص٤٠",
       "source": {
@@ -824,7 +824,7 @@
       "footnotes": [],
       "corrections": [],
       "transcriber_notes": [
-        "Heading zoomed at 1600 dpi: «والاخرة» is printed without a madda; transcribed as printed.",
+        "Review of 2026-11-15: the heading prints «والآخرة» with its madda (zoomed on p. 207; the index has it too); the earlier reading without the madda was a slip.",
         "«عبد العزيزبن» is printed tightly at a line end; written with the usual space. «ابن أبي سلمة» starts a printed line.",
         "No source-reference footnote is printed for this entry (p. 207 holds only the end of footnote 323, the (*) note and footnote 325), so takhrij is null."
       ]
@@ -1524,7 +1524,19 @@
       "grading": "حسن",
       "takhrij": "وأخرجه الترمذي تحفة ج١٠ ص٥٦ وقال : حديث حسن . وابن حبان ٢٤٠٧ ، ٢٤٠٨ ، وانظر النكت الظراف على تحفة الأشراف ج١١ / ٩٠-٩١ . ولبعض ألفاظ الحديث شواهد صحيحة ، انظر سلسلة الأحاديث الصحيحة للشيخ ناصر الدين الألباني رقم ١٢١١ ، وأخرجه أحمد ٢ / ٣٠٥ ، ٤٤٥ .",
       "footnotes": [],
-      "corrections": [],
+      "corrections": [
+        {
+          "id": 32,
+          "field": "text",
+          "printed": "أبوب",
+          "corrected": "أبواب",
+          "confidence": 0.95,
+          "status": "approved",
+          "decided_by": "auto",
+          "source": "transcriber",
+          "reason": "Transcriber's judgment (review of 2026-11-15 by Claude Fable): «أبوب السماء» is printed without its alif; «وتفتح لها أبواب السماء» in every narration. The misprints tool made no correction for it, so the misprint stayed in the corrected text."
+        }
+      ],
       "transcriber_notes": [
         "Pages 222–223. The dashes around «وكان ثقة» are printed attached; written with a space on each side. The nisba mark on «الطائيّ» is written as a shadda.",
         "«أبوب السماء» (p. 222) zoomed at 409 dpi: printed without the alif; left for the misprints tool.",

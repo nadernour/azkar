@@ -34,11 +34,12 @@
       "book_page": 266,
       "heading": "الدعاء بما تقر به الأعين من الزوجة الصالحة والذرية الصالحة",
       "kind": "verses",
-      "text": "قال تعالى حكاية عن عباد الرحمن : ﴿ والذين يقولون ربنا هب لنا من أزواجنا وذرياتنا قرة أعين واجعلنا للمتقين إماما ﴾ الفرقان . وقال سبحانه : ﴿ هنالك دعا زكريا ربه قال رب هَب لى من لدنك ذرية طيبة إنك سميع الدعاء ﴾ آل عمران ٣٨ .",
+      "text": "قال تعالى حكاية عن عباد الرحمن : **﴿ والذين يقولون ربنا هب لنا من أزواجنا وذرياتنا قرة أعين واجعلنا للمتقين إماما ﴾** الفرقان . وقال سبحانه : **﴿ هنالك دعا زكريا ربه قال رب هَب لى من لدنك ذرية طيبة إنك سميع الدعاء ﴾** آل عمران ٣٨ .",
       "footnotes": [],
       "corrections": [],
       "transcriber_notes": [
-        "The heading is printed on two lines (one title), joined with a space as in the index."
+        "The heading is printed on two lines (one title), joined with a space as in the index.",
+        "Review of 2026-11-15: the verses are printed in bold (checked on the scan); bold markers added."
       ]
     },
     {
@@ -46,11 +47,12 @@
       "book_page": 266,
       "heading": "ما يقوله من وُلِدَ له مولود",
       "kind": "verses",
-      "text": "﴿ فلما وضعتها قالت ربى إنى وضعتها أنثى والله أعلم بما وضعت وليس الذكر كالأنثى وإنى سميتها مريم وإنى أعيذها بك وذريتها من الشيطان الرجيم ﴾ آل عمران .",
+      "text": "**﴿ فلما وضعتها قالت ربى إنى وضعتها أنثى والله أعلم بما وضعت وليس الذكر كالأنثى وإنى سميتها مريم وإنى أعيذها بك وذريتها من الشيطان الرجيم ﴾** آل عمران .",
       "footnotes": [],
       "corrections": [],
       "transcriber_notes": [
-        "The verse is printed with final «ى» in «ربى», «إنى», «وإنى»; kept as printed."
+        "The verse is printed with final «ى» in «ربى», «إنى», «وإنى»; kept as printed.",
+        "Review of 2026-11-15: the verses are printed in bold (checked on the scan); bold markers added."
       ]
     }
   ],
@@ -91,6 +93,17 @@
       "takhrij": "أخرجه النسائيّ في النكاح ٣٩ : ٢ ، وابن ماجه في النكاح باب ١٩ .",
       "footnotes": [],
       "corrections": [
+        {
+          "id": 15,
+          "field": "text",
+          "printed": "لو إني",
+          "corrected": "لو أني",
+          "confidence": 0.92,
+          "status": "approved",
+          "decided_by": "auto",
+          "source": "transcriber",
+          "reason": "Transcriber's judgment (review of 2026-11-15 by Claude Fable): hamza printed on the wrong side of the alif (the OCR check ignores hamza forms, so it was never compared): after «لو» only «أنّ» is possible."
+        },
         {
           "id": 13,
           "field": "text",

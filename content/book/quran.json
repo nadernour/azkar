@@ -856,13 +856,26 @@
         "volume": 5,
         "page": 348
       },
-      "text": "حدثنا أبو نعيم حدثنا بشير بن المهاجر **حدثني عبد الله بن بريدة عن أبيه قال : كنت جالسا عند النبي ﷺ فسمعته يقول : « تعلَّموا سورة البقرة فإن أخذها بركة وتركها حسرة ولا يستطيعها البطلة » قال ثم مكث ساعة ، ثم قال : « تعلَّموا سورة البقرة وآل عمران فإنهما الزهراوان يظلان صاحبهما يوم القيامة كأنهما غمامتان أو غيايتان أو فرقان من طير صواف ، وإن القرآن يلقى صاحبه يوم القيامة حين ينشق عنه قبره كالرجل الشاحب فيقول له : هل تعرفني . فيقول : ما أعرفك . فيقول : أنا صاحبك القرآن الذي أظمأتك في الهواجر وأسهرت ليلك وإن كل تاجر من وراء تجارته وإنك اليوم من وراء كل تجارة ، فيعطى الملك بيمينه والخلد بشماله ويوضع على رأسه تاج الوقار ويكسى والداه حلتين لا يقوم لهما أهل الدنيا ، فيقولان : بم كسينا هذه ؟ فيقال : بأخذ ولدكما القرآن ، ثم يقال له : اقرأ واصعد في درجة الجنة وغرفها ، فهو في صعود ما دام يقرأ هذا كان أو ترتيلا » .**",
+      "text": "حدثنا أبو نعيم حدثنا بشير بن المهاجر **حدثني عبد الله بن بريدة عن أبيه قال : كنت جالسا عند النبي ﷺ فسمعته يقول : « تعلَّموا سورة البقرة فإن أخذها بركة وتركها حسترة ولا يستطيعها البطلة » قال ثم مكث ساعة ، ثم قال : « تعلَّموا سورة البقرة وآل عمران فإنهما الزهراوان يظلان صاحبهما يوم القيامة كأنهما غمامتان أو غيايتان أو فرقان من طير صواف ، وإن القرآن يلقى صاحبه يوم القيامة حين ينشق عنه قبره كالرجل الشاحب فيقول له : هل تعرفني . فيقول : ما أعرفك . فيقول : أنا صاحبك القرآن الذي أظمأتك في الهواجر وأسهرت ليلك وإن كل تاجر من وراء تجارته وإنك اليوم من وراء كل تجارة ، فيعطى الملك بيمينه والخلد بشماله ويوضع على رأسه تاج الوقار ويكسى والداه حلتين لا يقوم لهما أهل الدنيا ، فيقولان : بم كسينا هذه ؟ فيقال : بأخذ ولدكما القرآن ، ثم يقال له : اقرأ واصعد في درجة الجنة وغرفها ، فهو في صعود ما دام يقرأ هذا كان أو ترتيلا » .**",
       "grading": "حسن",
       "takhrij": "وابن ماجه مختصرا في الأدب ٥٢ : ٣ .",
       "footnotes": [],
-      "corrections": [],
+      "corrections": [
+        {
+          "id": 44,
+          "field": "text",
+          "printed": "حسترة",
+          "corrected": "حسرة",
+          "confidence": 0.95,
+          "status": "approved",
+          "decided_by": "auto",
+          "source": "transcriber",
+          "reason": "Transcriber's judgment (review of 2026-11-15 by Claude Fable): «حسترة» is not a word; the cited Ahmad narration and every other one have «وتركها حسرة». An extra letter set in type."
+        }
+      ],
       "transcriber_notes": [
-        "The hadith starts on p. 156 and ends on p. 157. The chain from «حدثني عبد الله بن بريدة» on is bold. «تعلَّموا» prints a shadda twice (zoomed). «هذا كان أو ترتيلا» is printed so, without marks."
+        "The hadith starts on p. 156 and ends on p. 157. The chain from «حدثني عبد الله بن بريدة» on is bold. «تعلَّموا» prints a shadda twice (zoomed). «هذا كان أو ترتيلا» is printed so, without marks.",
+        "Review of 2026-11-15: the page prints «وتركها حسترة» with an extra ta (clear at 900 dpi; the OCR flag had been dismissed); transcribed as printed and corrected by hand to «حسرة»."
       ]
     },
     {
@@ -1728,6 +1741,16 @@
       ],
       "corrections": [
         {
+          "id": 42,
+          "field": "text",
+          "printed": "داود فسجدها",
+          "corrected": "",
+          "confidence": 0.9,
+          "status": "rejected",
+          "decided_by": "owner",
+          "reason": "Owner's review 2026-11-15 (decided by Claude Fable at the owner's request): kept as printed: Open-Hadith-Data's edition of al-Bukhari (4433), the cited book, has «فسجدها داود عليه السلام فسجدها رسول الله ﷺ» in this same hadith. Earlier evidence: Extra: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 0 on dorar.net; the OCR confirms the page prints it; in the hadith text the wording of the cited source (bukhari 4807) is used."
+        },
+        {
           "id": 41,
           "field": "text",
           "printed": ": أو تقرأ",
@@ -1736,16 +1759,6 @@
           "status": "approved",
           "decided_by": "auto",
           "reason": "Substitution: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 1 on dorar.net; the OCR confirms the page prints it; in the hadith text the wording of the cited source (bukhari 4807) is used."
-        },
-        {
-          "id": 42,
-          "field": "text",
-          "printed": "داود فسجدها",
-          "corrected": "",
-          "confidence": 0.9,
-          "status": "approved",
-          "decided_by": "auto",
-          "reason": "Extra: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 0 on dorar.net; the OCR confirms the page prints it; in the hadith text the wording of the cited source (bukhari 4807) is used."
         }
       ],
       "transcriber_notes": [

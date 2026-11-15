@@ -13,6 +13,14 @@ Rules (see "Content pipeline" in the README):
   one of them, the word keeps only the book's marks and is flagged.
 - Words without such a match get no tashkeel.
 - Words next to a difference are flagged, because their endings can depend on it.
+  So are the neighbours of a word whose printed mark disagrees with the database.
+- The book's small upright alif («السمٰوات») is a letter form, not a vowel: it
+  stays, and the database's marks are added around it.
+- The hamza's seat is the book's. Where the book prints «إ» and the database «أ»
+  (or the other way round) and the book's reading is kept, the hamza's vowel
+  follows the book's seat and the word is flagged.
+- A final «ى» that takes a vowel, shadda or sukun from the database is a ya
+  («إِلَيَّ»), so it is written «ي»; a bare «ى» stays as printed.
 """
 
 import argparse
@@ -31,6 +39,10 @@ MARKS = ({chr(c) for c in range(0x064B, 0x0660)} | {"ٰ"}
          | {chr(c) for c in range(0x0610, 0x061B)} | {chr(c) for c in range(0x06D6, 0x06EE)})
 # Letter forms that count as the same letter when lining up a word.
 FOLD = str.maketrans({"أ": "ا", "إ": "ا", "آ": "ا", "ٱ": "ا", "ى": "ي", "ة": "ه", "ؤ": "و", "ئ": "ي"})
+DAGGER_ALIF = "ٰ"
+FATHA, DAMMA, KASRA, FATHATAN = "َ", "ُ", "ِ", "ً"
+# The short vowel a hamza seat carries when the database has the other seat.
+SEAT_VOWEL = {"إ": KASRA, "أ": FATHA}
 SALUTATION = "ﷺ"
 SALUTATION_WORDS = [normalize_word(w) for w in "صلى الله عليه وسلم".split()]
 
@@ -60,19 +72,38 @@ def transfer(book_token: str, db_token: str) -> tuple[str, str | None]:
     if len(b) != len(d) or any(x.translate(FOLD) != y.translate(FOLD) for (x, _), (y, _) in zip(b, d)):
         return book_token, "letters_differ"
     marks = []
-    for (_, book_marks), (_, db_marks) in zip(b, d):
-        if book_marks and db_marks and not set(book_marks) <= set(db_marks):
+    for (book_letter, book_marks), (db_letter, db_marks) in zip(b, d):
+        printed = book_marks.replace(DAGGER_ALIF, "")
+        if printed and db_marks and not set(printed) <= set(db_marks):
             return book_token, "conflict"
-        marks.append(db_marks or book_marks)
+        new = db_marks or book_marks
+        if DAGGER_ALIF in book_marks and DAGGER_ALIF not in new:
+            new += DAGGER_ALIF
+        if seats_differ(book_letter, db_letter) and not printed:
+            new = "".join(SEAT_VOWEL[book_letter] if m in (FATHA, DAMMA, KASRA) else m for m in new)
+        marks.append(new)
     out, k = [], 0
     for ch in book_token:
         if ch in MARKS:
             continue
-        out.append(ch)
         if is_letter(ch):
+            if ch == "ى" and set(marks[k]) - {FATHATAN, DAGGER_ALIF}:
+                ch = "ي"
+            out.append(ch)
             out.append(marks[k])
             k += 1
+        else:
+            out.append(ch)
     return "".join(out), None
+
+
+def seats_differ(book_letter: str, db_letter: str) -> bool:
+    return book_letter != db_letter and book_letter in SEAT_VOWEL and db_letter in SEAT_VOWEL
+
+
+def hamza_seat_differs(book_token: str, db_token: str) -> bool:
+    """The book prints «إ» where the database has «أ», or the other way round."""
+    return any(seats_differ(x, y) for (x, _), (y, _) in zip(letters(book_token), letters(db_token)))
 
 
 def token_words(tokens: list[str]) -> tuple[list[str], list[int]]:
@@ -115,13 +146,22 @@ def vocalize(text: str, db_text: str | None) -> list[dict]:
         if i in paired:
             new, problem = transfer(t, paired[i])
             if problem is None:
+                flagged = i in near or hamza_seat_differs(t, paired[i])
                 words.append({"text": new, "tashkeel": "database",
-                              "flag": "near_difference" if i in near else None})
+                              "flag": "near_difference" if flagged else None})
                 continue
             words.append({"text": t, "tashkeel": "book" if own_marks else "none", "flag": problem})
             continue
         words.append({"text": t, "tashkeel": "book" if own_marks else "none",
                       "flag": "no_match" if db_text else None})
+    # A printed mark that disagrees with the database can change the reading of the words around it
+    # (a verb for a noun), so their database endings are flagged too.
+    with_letters = [i for i in range(len(tokens)) if has_letters[i]]
+    for k, i in enumerate(with_letters):
+        if words[i]["flag"] == "conflict":
+            for j in with_letters[max(0, k - 1):k] + with_letters[k + 1:k + 2]:
+                if words[j]["tashkeel"] == "database" and words[j]["flag"] is None:
+                    words[j]["flag"] = "near_difference"
     return words
 
 

@@ -17,11 +17,12 @@
       "book_page": 117,
       "heading": "وجوب الصلاة على النبي ﷺ",
       "kind": "verses",
-      "text": "قال الله تعالى : ﴿ إن الله وملائكته يصلون على النبي يا أيها الذين آمنوا صلوا عليه وسلموا تسليما ﴾ . الأحزاب .",
+      "text": "قال الله تعالى : **﴿ إن الله وملائكته يصلون على النبي يا أيها الذين آمنوا صلوا عليه وسلموا تسليما ﴾** . الأحزاب .",
       "footnotes": [],
       "corrections": [],
       "transcriber_notes": [
-        "The chapter title «باب الصلاة على النبي ﷺ» is followed by the heading «وجوب الصلاة على النبي ﷺ», under which only this verse is printed, in bold."
+        "The chapter title «باب الصلاة على النبي ﷺ» is followed by the heading «وجوب الصلاة على النبي ﷺ», under which only this verse is printed, in bold.",
+        "Review of 2026-11-15: the verses are printed in bold (checked on the scan); bold markers added."
       ]
     },
     {
@@ -380,6 +381,17 @@
           "decided_by": "owner",
           "source": "transcriber",
           "reason": "Owner's review 2026-10-23 (decided by Claude at the owner's request): The cited Tirmidhi 2457 has «فإن زدت فهو خير لك» at every step, and the book itself prints «فهو خير لك» at the first step of the same hadith; «لك» is dropped here. Earlier evidence: Missing «لك» after the answer to «فالنصف»: Tirmidhi 2457 has «فهو خير لك»; the printed «فهو خير» here occurs nowhere with its context (the same words after «فالثلثين» are attested on dorar.net). Narrowed by the transcriber from the tool's «فهو خير لك قال » .», which put the narrator's «قال» (before «قلت : فالثلثين») inside the Prophet's quoted words. Scan p. 124 checked: printed without «لك». Not ungrammatical, so left for the owner."
+        },
+        {
+          "id": 5,
+          "field": "text",
+          "printed": "فهو خير » ،",
+          "corrected": "فهو خير لك » ،",
+          "confidence": 0.5,
+          "status": "approved",
+          "decided_by": "owner",
+          "source": "transcriber",
+          "reason": "Owner's review 2026-11-15 (decided by Claude Fable at the owner's request): the third step of the same hadith as correction 4 (approved 2026-10-23): the cited Tirmidhi 2457 has «فإن زدت فهو خير لك» at every step and the book prints «لك» at the first; approved here too so the three steps read alike."
         }
       ],
       "transcriber_notes": [

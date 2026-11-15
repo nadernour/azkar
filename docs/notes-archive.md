@@ -71,3 +71,32 @@ The owner asked Claude to review the long run's output and settle these notes an
 - The tool changed a transmission word in a chain.
 
 Among the questions, the tool had placed «حتى تختم الآية» (protections 156) inside the Quran brackets; it is approved after them. Text lost in typesetting was restored as corrections in entries 132 (al-Tirmidhi's «وعمرة … تامة تامة تامة») and 194. Two gradings were corrected: 516 «لغيره» → «صحيح لغيره» and 581 «حسن لما بعد» → «لما بعده». The words where the book's own marks blocked the database's tashkeel (`conflict` in `content/vocalized/`) were checked on the scans. Twelve misprinted vowel marks are corrected by dropping the wrong vowel and keeping the rest (e.g. «كبُّر», «يكبُّر», «حدُّثِ», «فُقال», «وِهل», «أنَ», «ربَّ»), so the database's vowels show; this book's type draws a damma-shaped stroke on the shadda where a fatha or kasra is meant. One mark was a transcription slip, fixed in the text: 508 «أَتي» → «أُتي» as printed. The other conflicts are genuine readings and stay (e.g. «قَدَّر», «أولَ», «يُذكر»). Nine pages compared word by word with the scans (text and footnotes) showed no other transcription errors.
+
+## Second review of the whole book (2026-11-13 to 2026-11-15)
+
+The owner asked Claude Fable to review the transcription (made by Opus) and every earlier decision, and to settle anything still open before step 7. No question was open at the start. Every change is listed in context on `.cache/reports/review-2026-11-15.html`; the principles are in `docs/transcription.md` ("Answers of 2026-11-15"). Decisions are owner decisions (reason starting «Owner's review 2026-11-15 (decided by Claude Fable at the owner's request)») or the transcriber's judgment («Transcriber's judgment (review of 2026-11-15 by Claude Fable)»).
+
+**Method.** Every page from 5 to 439 was read line by line against a crop of the scan (main text: headings, citations, chains, hadith, gradings, the Sheikh's own text), with a zoom on doubtful words through their OCR boxes. In addition: every OCR flag whose reading was a plausible different word (95), every run of words the OCR saw and the transcription lacks (74), all 20 entries recorded without a grading, all 136 verse references of the Sheikh's own text, every `conflict` word in `content/vocalized/`, every word whose hamza seat differs from the database's, and the printed wording of every automatic correction searched in all collections including Open-Hadith-Data's editions of the six books. Footnotes and source references were sampled on six pages (20, 98, 153, 228, 271, 345; no differences) and their 17 corrections reviewed; they were not read in full.
+
+**Transcription fixed (it differed from the page), 12 entries:**
+- 74, 75 (p. 58): «الأوليين» is printed with two yas, three times in the text and once in a footnote; it had been written with one and the OCR flags dismissed.
+- 126 (p. 84): the mark on «الصنابحىّ» (twice) is the nisba mark, not a damma. 157 (p. 106): the citation's «النسائيّ» has its mark.
+- 241 (p. 156) and 285 (p. 184): the page prints the misprints «حسترة» and «برذة»; the right words had been written. Now as printed, each with a correction.
+- 324 (p. 207): the heading's «والآخرة» has its madda.
+- 362 (p. 229): «السِّلق», a shadda with a kasra under it, had been read as a damma.
+- 545 (p. 340): «إليّ هذه» has a mark on the ya; with the hamza printed under the alif it is a misprint for «ألي هذه», now corrected.
+- 605 (p. 379): «آمنا برب الغلام» is printed three times, not twice.
+- 613 (p. 384): the page prints «فمر بنا بأمر»; the database's «فمرنا» had been written. Now as printed, with a correction.
+- 644 (p. 404): the grading «حسن» is printed among the show-through of the reverse page; it had been recorded as missing.
+- Bold only: the hadith of entries 309 and 439 is one bold run («نهانا» included), and 17 blocks of Quran verses in the Sheikh's own text got the bold markers the other 44 have.
+
+**Earlier decisions changed, 6:** five automatic corrections undone because the printed wording is attested in the same hadith (entry 19 «على مكان», 118 «بيده», 190 «بمثلها», 270 «داود فسجدها», 441 «فإني»); one rejection of 2026-10-23 approved (entry 642 «بوجه الله»: the earlier reason cited Ibn Umar's hadith, entry 643, not this one).
+
+**Corrections added, 18:** the three printed misprints above («حسترة», «برذة», «فمر بنا») and «إليّ» → «ألي»; «أبوب» → «أبواب» (entry 351, noted by the transcriber for the tool, which never corrected it); names: «بن بجير» → «بن بحير» (526, the first occurrence) and «أبي عباس بن سهل» → «أبي بن عباس بن سهل» (30); «لك» at the third step of entry 188, as at the second; the surah name «براءة» → «البقرة» after al-Baqarah 222 in the Sheikh's own text (p. 337); and nine hamzas printed on the wrong side of the alif (entries 35, 108, 366, 419, 461, 481, 521, 605, 641). These last were a class no check had covered: the OCR check ignores hamza forms, and the database's vowel landed on the wrong seat in the vocalized text.
+
+**Tools.** `tools/vocalize.py`: the book's dagger alif no longer blocks the database's tashkeel (entry 23); the neighbours of a `conflict` word are flagged (entry 168); where the book's hamza seat is a valid reading that differs from the database's (entries 156, 160, 385) the vowel follows the book's seat and the word is flagged; a final «ى» that takes a vowel or shadda from the database is written «ي» (about 30 words). The pipeline was rerun twice on the 21 changed chapters and made no new correction; all 41 chapters were vocalized again. 14 `conflict` words remain, each checked on the scan as a real difference between the book's mark and the database.
+
+**Counts after the review:** 403 corrections: 180 automatic by the tool, 70 by the transcriber's judgment, 75 approved and 78 rejected by the owner; none proposed. `check.py`: 0 errors on 41 chapters.
+
+**Left as decided** after a second look, since the printed wording has no attestation in the same hadith: entries 22, 11, 12, 37, 156, 254, 262, 318, 379, 401, 423, 446, 460, 527, 542, 562, 573.
+

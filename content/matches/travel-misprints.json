@@ -544,54 +544,10 @@
   },
   {
     "entry": 642,
-    "kind": "other",
-    "tokens": [
-      41,
-      42
-    ],
-    "printed_words": [
-      "بالله"
-    ],
-    "alternative_words": [
-      "بوجه",
-      "الله"
-    ],
-    "alternative_tokens": [
-      "بوجه",
-      "الله"
-    ],
-    "left": [
-      "فاعيذوه",
-      "ومن",
-      "سالكم"
-    ],
-    "right": [
-      "فاعطوه",
-      "قال",
-      "عبيد"
-    ],
-    "cited_wins": false,
-    "nonword": false,
-    "evidence_counts": {
-      "printed_in_collections": 0,
-      "context_words": 3,
-      "alternative_in_collections": 1,
-      "printed_on_dorar": 0,
-      "alternative_on_dorar": 1,
-      "ocr_confirms_printed": true
-    },
-    "decision": "owner-decided",
-    "confidence": 0.48,
-    "evidence": "Other: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 1 on dorar.net; the OCR confirms the page prints it.",
-    "printed": "سألكم بالله فأعطوه",
-    "corrected": "سألكم بوجه الله فأعطوه"
-  },
-  {
-    "entry": 642,
     "kind": "substitution",
     "tokens": [
-      51,
-      52
+      52,
+      53
     ],
     "printed_words": [
       "سالك"
@@ -610,7 +566,7 @@
     "right": [
       "بالله"
     ],
-    "cited_wins": false,
+    "cited_wins": true,
     "nonword": false,
     "evidence_counts": {
       "printed_in_collections": 0,
@@ -618,11 +574,11 @@
       "alternative_in_collections": 1,
       "printed_on_dorar": 0,
       "alternative_on_dorar": 1,
-      "ocr_confirms_printed": true
+      "ocr_confirms_printed": false
     },
     "decision": "approve",
-    "confidence": 0.93,
-    "evidence": "Substitution: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 1 on dorar.net; the alternative also appears elsewhere in this entry; the OCR confirms the page prints it.",
+    "confidence": 0.9,
+    "evidence": "Substitution: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 1 on dorar.net; the alternative also appears elsewhere in this entry; in the hadith text the wording of the cited source (abudawud 5108) is used.",
     "printed": "من سألك بالله",
     "corrected": "من سألكم بالله"
   },

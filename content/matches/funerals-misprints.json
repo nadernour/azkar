@@ -4060,48 +4060,6 @@
   },
   {
     "entry": 526,
-    "kind": "substitution",
-    "tokens": [
-      11,
-      12
-    ],
-    "printed_words": [
-      "بجير"
-    ],
-    "alternative_words": [
-      "بحير"
-    ],
-    "alternative_tokens": [
-      "بحير"
-    ],
-    "left": [
-      "عبد",
-      "الله",
-      "بن"
-    ],
-    "right": [
-      "عن",
-      "هاني",
-      "مولي"
-    ],
-    "cited_wins": false,
-    "nonword": false,
-    "evidence_counts": {
-      "printed_in_collections": 0,
-      "context_words": 3,
-      "alternative_in_collections": 2,
-      "printed_on_dorar": 0,
-      "alternative_on_dorar": 0,
-      "ocr_confirms_printed": true
-    },
-    "decision": "owner-decided",
-    "confidence": 0.93,
-    "evidence": "Substitution: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 2 time(s) in the collections; it is part of a name, and the printed spelling is used in no narration; the OCR confirms the page prints it.",
-    "printed": "بجير",
-    "corrected": "بحير"
-  },
-  {
-    "entry": 526,
     "kind": "missing",
     "tokens": [
       15,

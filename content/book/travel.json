@@ -431,6 +431,17 @@
           "reason": "Transcriber's judgment: the narrator is Suhayl ibn Abi Salih (as in entry 640); «صال» is the name with its final ha dropped, a spelling no narration uses."
         },
         {
+          "id": 18,
+          "field": "text",
+          "printed": "وأنه",
+          "corrected": "وإنه",
+          "confidence": 0.92,
+          "status": "approved",
+          "decided_by": "auto",
+          "source": "transcriber",
+          "reason": "Transcriber's judgment (review of 2026-11-15 by Claude Fable): hamza printed on the wrong side of the alif (the OCR check ignores hamza forms, so it was never compared): «وإنه دعاك لمكة» opens a new sentence, parallel to «وإني عبدك ونبيك» before it, as in the cited Muslim hadith."
+        },
+        {
           "id": 7,
           "field": "text",
           "printed": "به النبي",
@@ -468,19 +479,19 @@
           "printed": "سألكم بالله فأعطوه",
           "corrected": "سألكم بوجه الله فأعطوه",
           "confidence": 0.48,
-          "status": "rejected",
+          "status": "approved",
           "decided_by": "owner",
-          "reason": "Owner's review 2026-10-23 (decided by Claude at the owner's request): «ومن سألكم بالله فأعطوه» is the wording of Abu Dawud 5109 and al-Nasa'i 2567 for this same hadith; attested, so kept. Earlier evidence: Other: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 1 on dorar.net; the OCR confirms the page prints it."
+          "reason": "Owner's review 2026-11-15 (decided by Claude Fable at the owner's request): approved, replacing the decision of 2026-10-23. That decision cited Abu Dawud 5109 and al-Nasa'i 2567, but those are Ibn Umar's hadith (entry 643), not this one. This entry is Ibn Abbas's hadith (Abu Dawud 5108, Ahmad 2248), whose wording is «ومن سألكم بوجه الله فأعطوه»; the narrator's remark that follows («قال عبيد الله : من سألكم بالله») reports the other wording, so with the main text left as «بالله» the remark repeated it and lost its point. Earlier evidence: Owner's review 2026-10-23 (decided by Claude at the owner's request): «ومن سألكم بالله فأعطوه» is the wording of Abu Dawud 5109 and al-Nasa'i 2567 for this same hadith; attested, so kept. Earlier evidence: Other: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 1 on dorar.net; the OCR confirms the page prints it."
         },
         {
           "id": 9,
           "field": "text",
           "printed": "من سألك بالله",
           "corrected": "من سألكم بالله",
-          "confidence": 0.93,
+          "confidence": 0.9,
           "status": "approved",
           "decided_by": "auto",
-          "reason": "Substitution: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 1 on dorar.net; the alternative also appears elsewhere in this entry; the OCR confirms the page prints it."
+          "reason": "Substitution: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 1 on dorar.net; the alternative also appears elsewhere in this entry; in the hadith text the wording of the cited source (abudawud 5108) is used."
         }
       ],
       "transcriber_notes": [
@@ -520,7 +531,7 @@
         "page": 185
       },
       "text": "حدثنا إبراهيم بن سعيد الجوبري والحسين بن الحسن المروزي وكان سكن بمكة قالا : ثنا الأحوص بن جواب عن سعير بن الخمس عن سليمان التيمي عن أبي عثمان النهدي **عن أسامة بن زيد قال : قال رسول الله ﷺ : « من صنع إليه معروفا فقال لفاعله جزاك الله خيرا فقد أبلغ في الثناء » .**",
-      "grading": null,
+      "grading": "حسن",
       "takhrij": "وقال الترمذي : هذا حديث حسن جيد غريب لا نعرفه من حديث أسامة إلا من هذا الوجه وقد روي عن أبي هريرة عن النبي ﷺ بمثله وسألت محمدًا فلم يعرفه . وأخرجه ابن السني في عمل اليوم والليلة رقم ٢٧٦ .",
       "footnotes": [
         "(*) [على «الثناء»] قال أبو حاتم في العلل ٢ / ٢٣٦ هذا الحديث عندي موضوع بهذا الإسناد . قلت : ولا أدري لماذا حكم عليه أبو حاتم - رحمه الله - بالوضع . والشاهد الذي أشار إليه الترمذي من حديث أبي هريرة - رضي الله عنه - أخرجه عبد بن حميد في المنتخب رقم ١٤١٦ بتحقيقنا وفي إسناده موسى بن عبيدة الربذي وهو ضعيف وفيه أيضًا محمد بن ثابت وهو مجهول . وانظر صحيح الجامع للشيخ ناصر الدين الألباني رقم ٧٢١ ، ٦٢٤٤ ."
@@ -550,7 +561,7 @@
       ],
       "transcriber_notes": [
         "The scan of p. 404 has heavy mirrored bleed-through; the print was read on zoomed crops.",
-        "No grading is printed after this entry; the text is followed by a «****» separator.",
+        "Review of 2026-11-15: the grading «حسن» is printed in bold at the left margin, one line under the hadith, among the mirrored bleed-through of p. 403 (solid and not mirrored; zoomed). The earlier reading found no grading. The text is followed by a «****» separator.",
         "«الجوبري» zoomed: printed with a ba (the narrator is al-Jawhari); kept as printed, corrected by hand (correction 15).",
         "«وكان سكن بمكة» (Tirmidhi: «المروزي بمكة») is clear on the scan; once correction 15 was added, the tool no longer asks about it.",
         "«معروفا» is printed with a final alif.",

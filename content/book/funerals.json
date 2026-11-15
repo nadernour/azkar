@@ -21,34 +21,39 @@
       "book_page": 291,
       "heading": "ما يقال عند المصيبة",
       "kind": "verses",
-      "text": "قال تعالى : ﴿ ... وبشر الصابرين الذين إذا أصابتهم مصيبة قالوا إنا لله وإنا إليه راجعون .. ﴾ البقرة .",
+      "text": "قال تعالى : **﴿ ... وبشر الصابرين الذين إذا أصابتهم مصيبة قالوا إنا لله وإنا إليه راجعون .. ﴾** البقرة .",
       "footnotes": [],
       "corrections": [],
-      "transcriber_notes": []
+      "transcriber_notes": [
+        "Review of 2026-11-15: the verses are printed in bold (checked on the scan); bold markers added."
+      ]
     },
     {
       "after_entry": 472,
       "book_page": 293,
       "heading": "مشروعية التعزية",
       "kind": "verses",
-      "text": "وقال الله عز وجل : ﴿ وتواصوا بالحق وتواصوا بالصبر ﴾ العصر .",
+      "text": "وقال الله عز وجل : **﴿ وتواصوا بالحق وتواصوا بالصبر ﴾** العصر .",
       "footnotes": [],
       "corrections": [],
-      "transcriber_notes": []
+      "transcriber_notes": [
+        "Review of 2026-11-15: the verses are printed in bold (checked on the scan); bold markers added."
+      ]
     },
     {
       "after_entry": 503,
       "book_page": 310,
       "heading": "النهي عن الاستغفار للمشرك",
       "kind": "verses",
-      "text": "قال تعالى : ﴿ ما كان للنبي والذين آمنوا أن يستغفروا للمشركين ولو كانوا أولى قربى من بعد ما تبين لهم أنهم أصحاب الجحيم ﴾ براءة .",
+      "text": "قال تعالى : **﴿ ما كان للنبي والذين آمنوا أن يستغفروا للمشركين ولو كانوا أولى قربى من بعد ما تبين لهم أنهم أصحاب الجحيم ﴾** براءة .",
       "footnotes": [
         "(*) [على «الجحيم»] قد يحتج أحد باستغفار إبراهيم لأبيه فقال تعالى بعد هذه الآية : ﴿ وما كان استغفار إبراهيم لأبيه إلا عن موعدة وعدها إياه فلما تبين له أنه عدو لله تبرأ منه إن إبراهيم لأواه حليم ﴾ براءة . وقال تعالى : ﴿ قد كانت لكم أسوة حسنة في إبراهيم والذين معه ... إلا قول إبراهيم لأبيه ﴾ الممتحنة ."
       ],
       "corrections": [],
       "transcriber_notes": [
         "The footnote starts on p. 310 and continues on p. 311 («=»); joined.",
-        "«تعالى», «أولى» and «قربى» are printed with dotless final ya."
+        "«تعالى», «أولى» and «قربى» are printed with dotless final ya.",
+        "Review of 2026-11-15: the verses are printed in bold (checked on the scan); bold markers added."
       ]
     },
     {
@@ -56,11 +61,12 @@
       "book_page": 317,
       "heading": "ما يقال عند المرور بقبور المشركين",
       "kind": "verses",
-      "text": "وقال تعالى : ﴿ وأتبعناهم فى هذه الدنيا لعنة ويوم القيامة هم من المقبوحين ﴾ القصص .",
+      "text": "وقال تعالى : **﴿ وأتبعناهم فى هذه الدنيا لعنة ويوم القيامة هم من المقبوحين ﴾** القصص .",
       "footnotes": [],
       "corrections": [],
       "transcriber_notes": [
-        "«تعالى» and «فى» are printed with dotless final ya."
+        "«تعالى» and «فى» are printed with dotless final ya.",
+        "Review of 2026-11-15: the verses are printed in bold (checked on the scan); bold markers added."
       ]
     },
     {
@@ -192,6 +198,17 @@
       "takhrij": "ورواه مسلم ج١٦ ص٥ ، وأحمد ٦ / ٢٨٢ ، وابن ماجه في الجنائز ٦٤ : ٤ ، وعزاه المزي في الأطراف للنسائيّ في الكبرى .",
       "footnotes": [],
       "corrections": [
+        {
+          "id": 61,
+          "field": "text",
+          "printed": "إلا ترضين",
+          "corrected": "ألا ترضين",
+          "confidence": 0.92,
+          "status": "approved",
+          "decided_by": "auto",
+          "source": "transcriber",
+          "reason": "Transcriber's judgment (review of 2026-11-15 by Claude Fable): hamza printed on the wrong side of the alif (the OCR check ignores hamza forms, so it was never compared): «ألا ترضين أن تكوني …» is a question; «إلا» (“except”) gives no sense here."
+        },
         {
           "id": 6,
           "field": "text",
@@ -907,6 +924,17 @@
           "status": "rejected",
           "decided_by": "owner",
           "reason": "Owner's review 2026-10-23 (decided by Claude at the owner's request): «رضي الله عنه» after Ibn Abbas is the Sheikh's honorific; the form of an honorific is not a misprint. Earlier evidence: Substitution: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 3 time(s) in the collections and 1 on dorar.net; the alternative also appears elsewhere in this entry; the OCR confirms the page prints it; in the hadith text the wording of the cited source (bukhari 1286) is used."
+        },
+        {
+          "id": 62,
+          "field": "text",
+          "printed": "أن الله ليعذب",
+          "corrected": "إن الله ليعذب",
+          "confidence": 0.92,
+          "status": "approved",
+          "decided_by": "auto",
+          "source": "transcriber",
+          "reason": "Transcriber's judgment (review of 2026-11-15 by Claude Fable): hamza printed on the wrong side of the alif (the OCR check ignores hamza forms, so it was never compared): the lam of emphasis on «ليعذب» requires «إنّ»; it is the quoted statement, as in al-Bukhari."
         },
         {
           "id": 29,
@@ -2030,7 +2058,19 @@
       "grading": "صحيح",
       "takhrij": "وأخرجه أبو داود ج٣ ص٥٣٧ ، وابن ماجه ١٥٠٥ ، والنسائيّ ج٤ ص٧٢ ، والترمذي تحفة ج٤ ص١٠٤ وقال : حسن صحيح . ورواه أحمد من حديث حذيفة ج٥ ص٤٠٦ مسند ، وابن الجارود رقم ٥٣٣ .",
       "footnotes": [],
-      "corrections": [],
+      "corrections": [
+        {
+          "id": 63,
+          "field": "text",
+          "printed": "وأنه",
+          "corrected": "وإنه",
+          "confidence": 0.92,
+          "status": "approved",
+          "decided_by": "auto",
+          "source": "transcriber",
+          "reason": "Transcriber's judgment (review of 2026-11-15 by Claude Fable): hamza printed on the wrong side of the alif (the OCR check ignores hamza forms, so it was never compared): «وإنه كبر على جنازة خمسا» opens a new sentence, as in the cited Muslim hadith."
+        }
+      ],
       "transcriber_notes": [
         "«المثنى», «ليلى» and «على» are printed with dotless final ya."
       ]
@@ -2206,7 +2246,18 @@
           "status": "approved",
           "decided_by": "auto",
           "source": "transcriber",
-          "reason": "Transcriber's judgment: the same narrator as in correction 52, Bahir ibn Raysan («قال أبو داود بحير ابن ريسان» in Abu Dawud 3221); «بجير» is a spelling of his name no narration uses. The tool corrected only the first occurrence."
+          "reason": "Transcriber's judgment: the narrator is Bahir ibn Raysan («قال أبو داود بحير ابن ريسان» in Abu Dawud 3221); «بجير» is a spelling of his name no narration uses. The first occurrence («عبد الله بن بجير») has its own correction."
+        },
+        {
+          "id": 60,
+          "field": "text",
+          "printed": "بن بجير",
+          "corrected": "بن بحير",
+          "confidence": 0.93,
+          "status": "approved",
+          "decided_by": "auto",
+          "source": "transcriber",
+          "reason": "Transcriber's judgment (review of 2026-11-15 by Claude Fable): the narrator is Abdullah ibn Bahir (ibn Raysan), «عبد الله بن بحير» in the cited Abu Dawud chain (3221); «بجير» is a spelling of his name no narration uses. The same name is corrected at the end of the entry (correction 56)."
         },
         {
           "id": 58,

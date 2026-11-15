@@ -17,13 +17,14 @@
       "book_page": 178,
       "heading": "باب فيما يقوله من خاف الجوع",
       "kind": "verses",
-      "text": "قال الله عز وجل على لسان إبراهيم عليه السلام : ﴿ وإذ قال إبراهيم رب اجعل هذا بلدًا آمنا وارزق أهله من الثمرات من آمن منهم بالله واليوم الآخر ، قال ومن كفر فأمتعه قليلا ثم أضطره إلى عذاب النار وبئس المصير ﴾ البقرة ١٢٦ . وقال سبحانه على لسان عيسى عليه السلام : ﴿ قال عيسى ابن مريم اللهم ربنا أنزل علينا مائدة من السماء تكون لنا عيدا لأولنا وآخرنا وآية منك وارزقنا وأنت خير الرازقين ﴾ المائدة ١١٤ . صدر الآية آية لنبي وآخرها يشمل كل داعي .",
+      "text": "قال الله عز وجل على لسان إبراهيم عليه السلام : **﴿ وإذ قال إبراهيم رب اجعل هذا بلدًا آمنا وارزق أهله من الثمرات من آمن منهم بالله واليوم الآخر ، قال ومن كفر فأمتعه قليلا ثم أضطره إلى عذاب النار وبئس المصير ﴾** البقرة ١٢٦ . وقال سبحانه على لسان عيسى عليه السلام : **﴿ قال عيسى ابن مريم اللهم ربنا أنزل علينا مائدة من السماء تكون لنا عيدا لأولنا وآخرنا وآية منك وارزقنا وأنت خير الرازقين ﴾** المائدة ١١٤ . صدر الآية آية لنبي وآخرها يشمل كل داعي .",
       "footnotes": [
         "(*) [على «المائدة ١١٤»] هذا الأمر يتحقق لمن كان عنده رصيد من الإيمان والتقوى ، قال الله عز وجل ﴿ ولو أن أهل القرى آمنوا واتقوا لفتحنا عليهم بركات من السماء والأرض ولكن كذبوا فأخذناهم بما كانوا يكسبون ﴾ الأعراف ٩٦ . وقال تعالى : ﴿ ولو أن أهل الكتاب آمنوا واتقوا لكفرنا عنهم سيئاتهم ولأدخلناهم جنات النعيم ، ولو أنهم أقاموا التوراة والإنجيل وما أنزل إليهم من ربهم لأكلوا من فوقهم ومن تحت أرجلهم منهم أمة مقتصدة وكثير منهم ساء ما يعملون ﴾ المائدة ٦٥-٦٦ ."
       ],
       "corrections": [],
       "transcriber_notes": [
-        "The verses are bold in the book, the surrounding words regular; bold is not marked in author_text. The verse separator between 65 and 66 in the footnote is printed as a small circle; written as «،»."
+        "The verses are bold in the book, the surrounding words regular. The verse separator between 65 and 66 in the footnote is printed as a small circle; written as «،».",
+        "Review of 2026-11-15: the verses are printed in bold (checked on the scan); bold markers added."
       ]
     },
     {
@@ -31,11 +32,12 @@
       "book_page": 184,
       "heading": "شكر النعمة",
       "kind": "verses",
-      "text": "قال تعالى : ﴿ وإذ تأذن ربكم لئن شكرتم لأزيدنكم ولئن كفرتم إن عذابى لشديد ﴾ إبراهيم ٧ . وقال سبحانه : ﴿ لقد كان لسبأ فى مسكنهم آية جنتان عن يمين وشمال كلوا من رزق ربكم واشكروا له بلدة طيبة ورب غفور ﴾ سبأ ١٥ . وقال عز وجل : ﴿ فاذكرونى أذكركم واشكروا لى ولا تكفرون ﴾ البقرة ١٥٢ .",
+      "text": "قال تعالى : **﴿ وإذ تأذن ربكم لئن شكرتم لأزيدنكم ولئن كفرتم إن عذابى لشديد ﴾** إبراهيم ٧ . وقال سبحانه : **﴿ لقد كان لسبأ فى مسكنهم آية جنتان عن يمين وشمال كلوا من رزق ربكم واشكروا له بلدة طيبة ورب غفور ﴾** سبأ ١٥ . وقال عز وجل : **﴿ فاذكرونى أذكركم واشكروا لى ولا تكفرون ﴾** البقرة ١٥٢ .",
       "footnotes": [],
       "corrections": [],
       "transcriber_notes": [
-        "Dotless final ya in «عذابى», «فى», «فاذكرونى», «لى» as printed. The speck above «تأذن» looks like scan noise (zooms unclear), so no mark is written."
+        "Dotless final ya in «عذابى», «فى», «فاذكرونى», «لى» as printed. The speck above «تأذن» looks like scan noise (zooms unclear), so no mark is written.",
+        "Review of 2026-11-15: the verses are printed in bold (checked on the scan); bold markers added."
       ]
     }
   ],
@@ -303,15 +305,28 @@
         "volume": 17,
         "page": 50
       },
-      "text": "حدثنا أبو بكر بن أبي شيبة وابن نمير - واللفظ لابن نمير - قالا : حدثنا أبو أسامة ومحمد بن بشر عن زكريا بن أبي زائدة عن سعيد بن أبي بردة **عن أنس بن مالك قال : قال رسول الله ﷺ : « إن الله ليرضى عن العبد أن يأكل الأكلة فيحمده عليها أو يشرب الشربة فيحمده عليها »** وحدثنيه زهير بن حرب حدثنا إسحاق بن يوسف الأزرق حدثنا زكريا بهذا الإسناد .",
+      "text": "حدثنا أبو بكر بن أبي شيبة وابن نمير - واللفظ لابن نمير - قالا : حدثنا أبو أسامة ومحمد بن بشر عن زكريا بن أبي زائدة عن سعيد بن أبي برذة **عن أنس بن مالك قال : قال رسول الله ﷺ : « إن الله ليرضى عن العبد أن يأكل الأكلة فيحمده عليها أو يشرب الشربة فيحمده عليها »** وحدثنيه زهير بن حرب حدثنا إسحاق بن يوسف الأزرق حدثنا زكريا بهذا الإسناد .",
       "grading": "صحيح",
       "takhrij": "وأخرجه أحمد ٣ / ١٠٠ ، ١١٧ ، وابن السني رقم ٤٨٧ .",
       "footnotes": [
         "(*) [على «صحيح»] على طريقة من يقبل عنعنات المدلسين في الصحيحين ."
       ],
-      "corrections": [],
+      "corrections": [
+        {
+          "id": 13,
+          "field": "text",
+          "printed": "برذة",
+          "corrected": "بردة",
+          "confidence": 0.95,
+          "status": "approved",
+          "decided_by": "auto",
+          "source": "transcriber",
+          "reason": "Transcriber's judgment (review of 2026-11-15 by Claude Fable): the narrator is Sa'id ibn Abi Burda, as in the cited Muslim chain; «برذة» is a spelling of the name no narration uses."
+        }
+      ],
       "transcriber_notes": [
-        "The further chain «وحدثنيه زهير … بهذا الإسناد», printed without a number, is kept in text (regular type, as printed)."
+        "The further chain «وحدثنيه زهير … بهذا الإسناد», printed without a number, is kept in text (regular type, as printed).",
+        "Review of 2026-11-15: the page prints «سعيد بن أبي برذة» with a dot on the dal (clear at 900 dpi; the OCR flag had been dismissed); transcribed as printed and corrected by hand to «بردة»."
       ]
     },
     {

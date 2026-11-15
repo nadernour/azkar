@@ -79,9 +79,9 @@
           "printed": "بمثلها",
           "corrected": "بمثلهما",
           "confidence": 0.9,
-          "status": "approved",
-          "decided_by": "auto",
-          "reason": "Substitution: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 4 on dorar.net; in the hadith text the wording of the cited source (nasai 5438) is used."
+          "status": "rejected",
+          "decided_by": "owner",
+          "reason": "Owner's review 2026-11-15 (decided by Claude Fable at the owner's request): kept as printed: the same hadith in al-Darimi (Open-Hadith-Data 3305) has «ما سأل سائل ولا استعاذ مستعيذ بمثلها»; the wording is attested in another narration of the same hadith. Earlier evidence: Substitution: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 4 on dorar.net; in the hadith text the wording of the cited source (nasai 5438) is used."
         }
       ],
       "transcriber_notes": [

@@ -456,46 +456,6 @@
     "evidence": "The printed wording is attested elsewhere (0 in the collections, 2 on dorar.net), so it is a genuine variant."
   },
   {
-    "entry": 74,
-    "kind": "substitution",
-    "tokens": [
-      25,
-      26
-    ],
-    "printed_words": [
-      "الاولين"
-    ],
-    "alternative_words": [
-      "الاوليين"
-    ],
-    "alternative_tokens": [
-      "الأوليين"
-    ],
-    "left": [
-      "يقرا",
-      "في",
-      "الركعتين"
-    ],
-    "right": [
-      "من",
-      "صلاه",
-      "الظهر"
-    ],
-    "cited_wins": false,
-    "nonword": false,
-    "evidence_counts": {
-      "printed_in_collections": 0,
-      "context_words": 3,
-      "alternative_in_collections": 2,
-      "printed_on_dorar": 0,
-      "alternative_on_dorar": 10,
-      "ocr_confirms_printed": false
-    },
-    "decision": "check-scan",
-    "confidence": null,
-    "evidence": "The OCR reads the alternative here: re-check the transcription on the scan."
-  },
-  {
     "entry": 75,
     "kind": "missing",
     "tokens": [
@@ -534,86 +494,6 @@
     "decision": "kept",
     "confidence": 0.15,
     "evidence": "Kept: the alternative has no support beyond the one matched database text."
-  },
-  {
-    "entry": 75,
-    "kind": "substitution",
-    "tokens": [
-      29,
-      30
-    ],
-    "printed_words": [
-      "الاولين"
-    ],
-    "alternative_words": [
-      "الاوليين"
-    ],
-    "alternative_tokens": [
-      "الأوليين"
-    ],
-    "left": [
-      "الظهر",
-      "في",
-      "الركعتين"
-    ],
-    "right": [
-      "في",
-      "كل",
-      "ركعه"
-    ],
-    "cited_wins": false,
-    "nonword": false,
-    "evidence_counts": {
-      "printed_in_collections": 0,
-      "context_words": 3,
-      "alternative_in_collections": 2,
-      "printed_on_dorar": 0,
-      "alternative_on_dorar": 6,
-      "ocr_confirms_printed": false
-    },
-    "decision": "check-scan",
-    "confidence": null,
-    "evidence": "The OCR reads the alternative here: re-check the transcription on the scan."
-  },
-  {
-    "entry": 75,
-    "kind": "substitution",
-    "tokens": [
-      53,
-      54
-    ],
-    "printed_words": [
-      "الاولين"
-    ],
-    "alternative_words": [
-      "الاوليين"
-    ],
-    "alternative_tokens": [
-      "الأوليين"
-    ],
-    "left": [
-      "العصر",
-      "في",
-      "الركعتين"
-    ],
-    "right": [
-      "في",
-      "كل",
-      "ركعه"
-    ],
-    "cited_wins": false,
-    "nonword": false,
-    "evidence_counts": {
-      "printed_in_collections": 0,
-      "context_words": 3,
-      "alternative_in_collections": 1,
-      "printed_on_dorar": 0,
-      "alternative_on_dorar": 6,
-      "ocr_confirms_printed": false
-    },
-    "decision": "check-scan",
-    "confidence": null,
-    "evidence": "The OCR reads the alternative here: re-check the transcription on the scan."
   },
   {
     "entry": 76,

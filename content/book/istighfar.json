@@ -80,9 +80,22 @@
       "kind": "verses",
       "text": "قال تعالى : ﴿ **إن الله يحب التوابين ويحب المتطهرين** ﴾ براءة .",
       "footnotes": [],
-      "corrections": [],
+      "corrections": [
+        {
+          "id": 9,
+          "field": "text",
+          "printed": "براءة",
+          "corrected": "البقرة",
+          "confidence": 0.95,
+          "status": "approved",
+          "decided_by": "owner",
+          "source": "transcriber",
+          "reason": "Owner's review 2026-11-15 (decided by Claude Fable at the owner's request): the verse «إن الله يحب التوابين ويحب المتطهرين» is al-Baqarah 222; no verse of Bara'ah (al-Tawbah) has these words (108 ends «والله يحب المطهرين»). All 136 verse references of the Sheikh's own text were checked in this review; this is the only wrong one."
+        }
+      ],
       "transcriber_notes": [
-        "The index gives this heading as «حب الله عز وجل للعبد التائب وفرحه به»; the page prints «للتائب»."
+        "The index gives this heading as «حب الله عز وجل للعبد التائب وفرحه به»; the page prints «للتائب».",
+        "Review of 2026-11-15: the surah is printed as «براءة»; the verse is al-Baqarah 222. Kept as printed, corrected by hand."
       ]
     },
     {
@@ -469,15 +482,27 @@
         "volume": 17,
         "page": 79
       },
-      "text": "حدثنا قتيبة بن سعيد وأبو كامل فضيل بن حسين الجحدري كلاهما عن يزيد بن زريع - واللفظ لأبي كامل - حدثنا يزيد حدثنا التيمي عن أبي عثمان **عن عبد الله ابن مسعود أن رجلا أصاب من امرأة قبلة فأتى النبي ﷺ فذكر ذلك له قال : فنزلت : ﴿ أقم الصلاة طرفى النهار وزلفا من الليل إن الحسنات يذهبن السيئات ذلك ذكرى للذاكرين ﴾ قال : فقال الرجل : إلي هذه يا رسول الله ؟ قال : « لمن عمل بها من أمتي » .**",
+      "text": "حدثنا قتيبة بن سعيد وأبو كامل فضيل بن حسين الجحدري كلاهما عن يزيد بن زريع - واللفظ لأبي كامل - حدثنا يزيد حدثنا التيمي عن أبي عثمان **عن عبد الله ابن مسعود أن رجلا أصاب من امرأة قبلة فأتى النبي ﷺ فذكر ذلك له قال : فنزلت : ﴿ أقم الصلاة طرفى النهار وزلفا من الليل إن الحسنات يذهبن السيئات ذلك ذكرى للذاكرين ﴾ قال : فقال الرجل : إليّ هذه يا رسول الله ؟ قال : « لمن عمل بها من أمتي » .**",
       "grading": "صحيح",
       "takhrij": "وأخرجه البخاري ج٨ ص٣٥٥ فتح ، والترمذي في التفسير تفسير سورة القدر ، وابن ماجه في الصلاة ٢٣٢ ، وأحمد ١ / ٤٣٠ ، وعزاه المزي في الأطراف للنسائيّ في السنن الكبرى في التفسير .",
       "footnotes": [
         "(***) [على «التيمي»] التيمي هو سليمان بن طرخان ."
       ],
-      "corrections": [],
+      "corrections": [
+        {
+          "id": 8,
+          "field": "text",
+          "printed": "إليّ",
+          "corrected": "ألي",
+          "confidence": 0.9,
+          "status": "approved",
+          "decided_by": "owner",
+          "source": "transcriber",
+          "reason": "Owner's review 2026-11-15 (decided by Claude Fable at the owner's request): the question is «ألي هذه يا رسول الله ؟» (“is this for me?”), as in the cited Muslim hadith (2763) and as the answer «لمن عمل بها من أمتي» requires; the book prints the hamza under the alif and a mark on the ya, which reads «إليَّ» (“to me”)."
+        }
+      ],
       "transcriber_notes": [
-        "«ابن مسعود» starts a line, kept as printed. Over the ya of «إلي» (before «هذه») a small mark is printed that looks like a hamza rather than a shadda, zoomed at 1600 dpi; since it can't be told for sure, no mark is transcribed.",
+        "«ابن مسعود» starts a line, kept as printed. Review of 2026-11-15: the ya of «إليّ» (before «هذه») carries a small mark, the same as on «إليّ» elsewhere in the book; transcribed as a shadda. The book's reading «إليّ هذه» (hamza under the alif) is a misprint for «ألي هذه», corrected by hand.",
         "The takhrij prints «تفسير سورة القدر» although the verse is from Hud; transcribed as printed."
       ]
     },

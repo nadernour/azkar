@@ -41,11 +41,12 @@
       "book_page": 275,
       "heading": "العلاج بالدعاء",
       "kind": "verses",
-      "text": "وقال تعالى : ﴿ وقال ربكم ادعونى استجب لكم ﴾ غافر .",
+      "text": "وقال تعالى : **﴿ وقال ربكم ادعونى استجب لكم ﴾** غافر .",
       "footnotes": [],
       "corrections": [],
       "transcriber_notes": [
-        "«ادعونى» printed with final alif maqsura; «استجب» printed without hamza."
+        "«ادعونى» printed with final alif maqsura; «استجب» printed without hamza.",
+        "Review of 2026-11-15: the verses are printed in bold (checked on the scan); bold markers added."
       ]
     },
     {
@@ -369,13 +370,13 @@
         "volume": 11,
         "page": 150
       },
-      "text": "حدثني مسدد حدثنا يحيى عن إسماعيل **عن قيس قال : أتيت خبابا وقد اكتوى سبعا قال : لولا أن رسول الله ﷺ** نهانا **أن ندعو بالموت لدعوت به .**",
+      "text": "حدثني مسدد حدثنا يحيى عن إسماعيل **عن قيس قال : أتيت خبابا وقد اكتوى سبعا قال : لولا أن رسول الله ﷺ نهانا أن ندعو بالموت لدعوت به .**",
       "grading": "صحيح",
       "takhrij": "ورواه مسلم ج١٧ ص٨ ، والنسائيّ ج٤ ص٤٥ تحفة وقال : حسن صحيح . والترمذي ج٧ ص١٨٥ تحفة وقال : صحيح . وقد تقدم بعد قوله … وقال : صحيح . يكتب وقد تقدم .",
       "footnotes": [],
       "corrections": [],
       "transcriber_notes": [
-        "«نهانا» is printed in regular type inside the bold run.",
+        "Review of 2026-11-15: «نهانا» is bold like the rest of the hadith (zoomed on p. 275); the bold run is continuous.",
         "The takhrij is printed as shown, including the broken phrase «وقد تقدم بعد قوله … وقال : صحيح . يكتب وقد تقدم .»; «اكتوى» with final alif maqsura."
       ]
     },
@@ -424,9 +425,9 @@
           "printed": "فإني",
           "corrected": "إني",
           "confidence": 0.9,
-          "status": "approved",
-          "decided_by": "auto",
-          "reason": "Substitution: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 1 on dorar.net; the OCR confirms the page prints it; in the hadith text the wording of the cited source (bukhari 5652) is used."
+          "status": "rejected",
+          "decided_by": "owner",
+          "reason": "Owner's review 2026-11-15 (decided by Claude Fable at the owner's request): kept as printed: the same hadith with the same chain (Yahya al-Qattan from Imran Abi Bakr) in Muslim 6571 has «قالت فإني أتكشف». Earlier evidence: Substitution: the printed wording occurs nowhere (with 3 word(s) of context); the alternative is attested 1 time(s) in the collections and 1 on dorar.net; the OCR confirms the page prints it; in the hadith text the wording of the cited source (bukhari 5652) is used."
         }
       ],
       "transcriber_notes": [
